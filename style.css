@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: impact;
+
+}
+
+body{
+    background-color: black;
+    
+}
+
+body{
+    padding-top: 85px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: rgb(183, 182, 182);
+    display: flex;
+    align-items: center;
+    height: 85px;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+   
+}
+
+#INFORMACION,
+#NOTICIAS,
+#ENCUESTA {
+    scroll-margin-top: 90px;  /* para al hacer scroll no que sobre los contenedores */
+}
+
+.header nav{
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding-top: 5px;
+}
+
+.links a {
+    font-family: impact;
+    color:rgb(100, 166, 145);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 130px;
+    width: auto;
+    transition: all 0.5s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.links li:hover{
+    transform: scale(1.2);
+}
+
+.links li a:hover{
+    color:rgb(96, 169, 145);
+}
+
+.contenedor1{
+    background-color: white;
+    display: flex;
+    padding: 40px 80px;
+    margin: 5px 5px;
+    gap: 40px;
+}
+
+.contenedor1 img{
+    height: 600px;
+    width: auto;
+    margin-left: 80px;
+    box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.8);
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column; /*para que mi titulo quede arriba y mi texto abajo*/
+    justify-content: flex-start;
+}
+
+.titulo1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 150px;
+    margin-bottom: 40px;
+    padding-left: 350px;
+    color:rgb(100, 166, 145);
+
+}
+
+.parrafo1{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 50px;
+    color:rgb(100, 166, 145);
+    
+}
+
+.contenedor2{
+    background-color: white;
+    display: flex;
+    padding: 40px 80px;
+    margin: 5px 5px;
+    gap: 40px;
+
+}
+
+.contenedor2 img{
+    height: 600px;
+    width: auto;
+    margin-right: 80px;
+    box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column; /*para que mi titulo quede arriba y mi texto abajo*/
+    justify-content: flex-start;
+
+}
+
+.titulo2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 380px;
+    color:rgb(100, 166, 145);
+
+}
+
+.linea-separadora{
+    border: none;
+    border-top: 5px solid #000000; 
+    margin-top: 50px;          
+    margin-left: 20px;         
+}
+
+.parrafo2{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 20px;
+     color:rgb(100, 166, 145);
+}
+
+.titulo2_5{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 380px;
+     color:rgb(100, 166, 145);
+}
+
+.parrafo2_5{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 20px;
+    padding-top: 20px;
+     color:rgb(100, 166, 145);
+
+}
+
+.contenedor3{
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    padding: 40px 80px;
+    margin: 5px 5px;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.contenedor3 .imagenes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor3 .imagenes img{
+    margin-top: 120px;
+    height: 400px;
+    width: auto;
+    box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.8); 
+    
+}
+
+.texto3{
+    display: flex;
+    flex-direction: column; /*para que mi titulo quede arriba y mi texto abajo*/
+    justify-content: flex-start;
+}
+
+.titulo3{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    padding-left: 350px;
+     color:rgb(100, 166, 145);
+
+}
+
+.parrafo3{
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 50px;
+     color:rgb(100, 166, 145);
+}
+
+.video_ig{
+    color:aquamarine;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.video_ig:hover {
+    color: gray;   /* color al pasar el mouse */
+}
+
+.parrafo3_5{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 50px;
+    padding-top: 200px;
+     color:rgb(100, 166, 145);
+}
+
+.linea-separadora2{
+    border: none;
+    border-top: 5px solid black; 
+    margin-top: 200px;          
+    margin-left: 50px;          
+}
+
+.contenedor4{
+    background-color: white;
+    margin: 5px 5px;
+}
+
+
+.formulario {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    padding: 40px;
+    background-color: rgb(183, 182, 182);
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+}
+
+
+.formulario h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.formulario select {
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+#ENCUESTA {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+
+#resultado {
+    width: 35%;
+    text-align: center;
+}
+
+
+/*no se deforma al estar en tablets*/
+@media (max-width: 1024px) {
+
+    .contenedor1,
+    .contenedor2,
+    .contenedor3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .contenedor1 img,
+    .contenedor2 img,
+    .contenedor3 .imagenes img {
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .titulo1, .titulo2, .titulo2_5, .titulo3 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .parrafo1, .parrafo2, .parrafo2_5, .parrafo3, .parrafo3_5 {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    /* formulario */
+    #ENCUESTA {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #resultado {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+
+    .links {
+        gap: 30px;
+    }
+}
+
+
+/*no se deforma al estar en celulares*/
+@media (max-width: 600px) {
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .header nav {
+        margin: 0;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header .logo img {
+        height: 80px;
+    }
+
+    .titulo1, .titulo2, .titulo2_5, .titulo3 {
+        font-size: 32px;
+    }
+
+    .formulario select {
+        width: 100%;
+    }
+
+    #ENCUESTA {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
